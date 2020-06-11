@@ -1,0 +1,27 @@
+Variables
+es una forma para almacenar algo y poder usarlo despues, para declarar una variable hay 3 formas: Var, let y const donde var es la palabra clave generica y const es una constante, osea una variable que no se puede cambiar
+Strings (cadenas)
+es un tipo de datos que texto que siempre se escribe entre comillas. ejemplo: 'perro'
+Funciones (argumentos, retun)
+las funciones son objetos que se pueden llamar y por eso tienen unas propiedades especiales y esta formada por
+Palabra clave - nombre de la funcion - argumentos de la funcion - codigo de la funcion
+Argumentos
+son las variables que declaramos dentro de la funcion que van a tomar un valor cuando se la llame. ejem:
+function sumarDosNumeros(a,b) {
+	var suma = a + a;
+	return suma;
+} 
+en este caso a y b son los argumentos que tomaran un valor cuando se llame al a funcion para ejecutarla
+Return
+Es la forma en que los datos escapan de una funcion, en el ejemplo anterior lo que retorna de la funcion es la suma (el resultado de sumar a y b)
+Declaraciones (if)
+if es una palabra clave cuando queremos verificar que algo es verdadero, sea que se ejecute el codigo que le dimos y si no es asi que avance a otro codigo o no devuelva el falso. 
+seria como una prepoicion donde yo digo pueden conducir Si (if) son mayores de 18 años (entonces verdadero) de lo contrario falso.
+function puedeManejar(edad){
+	if (edad>18){
+	return true;
+	}
+	return false;
+}
+Valores Boleanos (True, False)
+se les llama asi por que vienen de logica booleana y simplemente sifnifica que solo hay dos opciones, verdadero o falso y son usados como lo vimos en el ejemplo anterior.
