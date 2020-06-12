@@ -1,0 +1,5 @@
+`for` es un bucle, los bucles evaluan expresiones una y otra vez hasta que devuelve lo que estamos buscando, tiene forma parecida a "if" Primero esta la palabra clave seguida de paréntesis y luego abrir y cerrar llaves. Dentro de los paréntesis necesitaremos tres cosas. Primero, debemos declarar la variable, esto es sobre lo que se repetirá el bucle. Entonces tendremos una expresión condicional, el ciclo continuará sucediendo hasta que esta declaración sea `false`. Tercero, incrementaremos la variable.
+
+* `&&` es un operador logico que se traduce como "Y" seria como un conector entre dos afirmaciones que en su conjunto para ser verdaderas ambas deben serlo tambien, si una es falsa toda la afirmacion como grupo es falsa
+`||` es un operador logico que se traduce como "ó" seria como un conector entre dos afirmaciones en donde una de las dos si es verdadera confirma el conjunto de ambas. 
+`!` es un operador logico que se traduce como "no" seria la negacion de la afirmacion por lo que devuelve el valor opuesto a lo que pasa.
